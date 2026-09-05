@@ -111,7 +111,7 @@ One important analytical question explored in the project is:
 ## 📸 Dashboard Preview
 
 ### Customer Overview
-![Customer overview](./Customer_overview.png)
+![Customer overview](./Customeroverview.png)
 
 ### Customer Performance & Segmentation
 ![Customer_performance & segmentation](./Customer_performance&segmentation.png)

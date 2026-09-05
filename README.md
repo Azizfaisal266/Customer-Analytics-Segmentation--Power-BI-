@@ -136,18 +136,15 @@ This project demonstrates practical experience in:
 ## 📁 Repository Structure
 
 ```text
-Customer-Analytics-Power-BI-Dashboard/
+📁 Repository Structure
+Customer-Analytics-Segmentation--Power-BI/
 │
 ├── README.md
-├── Customer_Analytics.pbix
 │
-├── images/
-│   ├── customer_overview.png
-│   ├── customer_details.png
-│   └── customer_segmentation.png
-│
-└── data/
-    └── ...
+└── images/
+    ├── Customer overview.png
+    ├── Customer_performance&segmentation.png
+    └── Customer_table_Cohort.png
 ```
 
 ---

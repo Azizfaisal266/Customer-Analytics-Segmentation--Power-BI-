@@ -110,15 +110,15 @@ One important analytical question explored in the project is:
 
 ## 📸 Dashboard Preview
 ### Customer Overview
-![Customer Overview](customer_overview.png)
+![Customer Overview](/customer_overview.png)
 
 ### Customer Overview
 ### Customer Performance & Segmentation
-![Customer Performance & Segmentation](customer_performance_segmentation.png)
+![Customer Performance & Segmentation](/customer_performance_segmentation.png)
 
 ### Customer Details
 ### Customer Table & Cohort Analysis
-![Customer Table & Cohort Analysis](customer_table_cohort.png)
+![Customer Table & Cohort Analysis](/customer_table_cohort.png)
 
 
 ---
@@ -146,7 +146,7 @@ Customer-Analytics-Segmentation--Power-BI/
 │
 ├── README.md
 │
-└── images/
+└── /
     ├── Customer overview.png
     ├── Customer_performance&segmentation.png
     └── Customer_table_Cohort.png

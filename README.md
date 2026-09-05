@@ -114,7 +114,7 @@ One important analytical question explored in the project is:
 ![Customer overview](./Customer_overview.png)
 
 ### Customer Performance & Segmentation
-![Customer_performance & Segmentation](./Customer_performance_segmentation.png)
+![Customer_performance & segmentation](./Customer_performance&segmentation.png)
 
 ### Customer Details
 ![Customer_table_Cohort](./Customer_table_cohort.png)

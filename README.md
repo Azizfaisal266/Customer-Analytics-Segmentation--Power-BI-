@@ -1,159 +1,124 @@
 # Customer Analytics Power BI Dashboard
 
-An end-to-end **Power BI customer analytics project** designed to analyze customer behavior, revenue performance, retention, segmentation, and customer value through interactive dashboards.
+An end-to-end **Power BI customer analytics project** that transforms transactional sales data into actionable insights across **customer behavior, revenue, retention, churn, segmentation, cohorts, and product categories**.
 
-The project transforms raw sales data into actionable customer insights using **Power BI, Power Query, DAX, and data modeling**.
+Built using **Power BI, Power Query, DAX, and Star Schema data modeling**.
 
 ---
 
 ## 📊 Project Overview
 
-Understanding customer behavior is essential for identifying valuable customers, improving retention, and making data-driven business decisions.
+The project analyzes transactional sales data to understand **who the customers are, how they purchase, how valuable they are, and how their behavior changes over time**.
 
-This project focuses on answering questions such as:
+The dashboard answers key business questions:
 
-* How is customer revenue changing over time?
-* How many customers are new vs. returning?
-* How does customer retention change over the years?
-* Which customers are active or churned?
-* Which customer segments generate the most revenue?
-* What is the Customer Lifetime Value (LTV)?
-* How does customer behavior differ across cohorts?
-* Does having more customers necessarily lead to higher revenue?
-
----
-
-## 🎯 Business Objectives
-
-The main objectives of this project are to:
-
-* Analyze customer revenue and purchasing behavior.
-* Identify customer growth and retention trends.
-* Segment customers based on their purchasing behavior.
-* Measure Customer Lifetime Value.
-* Identify active and churned customers.
-* Analyze customer cohorts and their performance.
-* Provide an interactive dashboard for exploring customer insights.
+* How are revenue and customer growth changing over time?
+* Are customers **Active or Churned**?
+* Which customer segments generate the most value?
+* How does performance differ across customer cohorts?
+* Which product categories perform best?
+* How do **Average Sales and Median Sales** compare across categories?
+* Does acquiring more customers necessarily lead to higher revenue?
 
 ---
 
-## 🛠️ Tools & Technologies
+## 🛠️ Data Preparation & Modeling
 
-* **Power BI**
-* **DAX**
-* **Data Modeling**
-* **Star Schema**
-* **Interactive Data Visualization**
+Raw transactional data was transformed using **Power Query** and organized into a **Star Schema** for analysis.
+
+The model connects:
+
+* **Sales** – transactional data
+* **Customers** – customer attributes
+* **Products** – product and category information
+* **Date** – time-based analysis
+
+DAX measures were then created to calculate customer, revenue, sales, and retention metrics.
 
 ---
 
 ## 📈 Dashboard Analysis
 
-### 1. Customer Revenue Analysis
+### Customer Performance
 
-Analyze customer revenue across different years and identify revenue trends and changes in customer contribution 
+Analyzes revenue, customer growth, orders, Average Order Value, and Revenue per Customer over time.
 
-### 2. Customer Status
+### Customer Status & Churn
 
-Classify customers based on their latest purchasing activity, helping identify **Active** and **Churned** customers.
+Classifies customers as **Active or Churned** based on their latest purchasing activity and a defined six-month inactivity period.
 
-### 3. Customer Lifetime Value
+### Customer Segmentation
 
-Analyze the average revenue generated per customer and compare customer value across different segments.
+Segments customers into **Low, Medium, and High LTV** groups to understand customer value and revenue contribution.
 
-### 4. Cohort Analysis
+### Cohort Analysis
 
-Customers are grouped based on their first purchase year to analyze how different customer cohorts perform over time.
+Groups customers by their **first purchase year** to compare customer and revenue performance across cohorts.
+
+### Product Category Analysis
+
+Compares product categories using **Average Sales and Median Sales**, providing a clearer view of typical performance and the effect of high-value transactions.
 
 ---
 
 ## 📊 Key Metrics
-
-The dashboard includes metrics such as:
 
 * Total Customers
 * Total Revenue
 * Total Orders
 * Average Order Value
 * Revenue per Customer
-* Customer Retention
+* Customer Growth
+* Revenue Growth
 * Active Customers
 * Churned Customers
 * Customer Lifetime Value
-
-
----
-
-## 🧮 Data Modeling
-
-The project uses a **Star Schema** to organize the data and improve analytical performance.
-
-The model separates transactional data from descriptive dimensions, allowing the dashboard to efficiently analyze customers, products, sales, and dates.
+* Average Sales
+* Median Sales
 
 ---
 
 ## 🔍 Key Insights
 
-The analysis helps uncover relationships between:
+The analysis highlights that:
 
-* Customer growth and revenue growth
-* Customer retention and revenue performance
-* Customer purchasing frequency and lifetime value
-* Customer segments and revenue contribution
-* Cohort performance over time
+* **2020 experienced a significant decline in customer and revenue performance, coinciding with the COVID-19 pandemic and its broader economic impact.**
+* **2022 was a strong year for sales performance**, showing a noticeable increase across key sales metrics.
+* **2023 saw a decline in Median Sales**, while overall sales performance also decreased across most key metrics.
+* Customer growth does not always translate into proportional revenue growth.
+* Customer value varies significantly across LTV segments.
+* Different acquisition cohorts show different levels of long-term performance.
+* **Average and Median Sales reveal different patterns across product categories.**
 
-One important analytical question explored in the project is:
-
-> **Does acquiring more customers necessarily result in higher revenue?**
-
----
 
 ## 📸 Dashboard Preview
 
 ### Customer Overview
-![Customer overview](./Customer_overview.png)
+
+![Customer Overview](./Customer_overview.png)
 
 ### Customer Performance & Segmentation
-![Customer_performance & segmentation](./Customer_performance&segmentation.png)
 
-### Customer Details
-![Customer_table_Cohort](./Customer_table_Cohort.png)
+![Customer Performance & Segmentation](./Customer_performance\&segmentation.png)
 
----
+### Customer Details & Cohort Analysis
 
-## 🚀 Project Skills Demonstrated
+![Customer Details & Cohort Analysis](./Customer_table_Cohort.png)
 
-This project demonstrates practical experience in:
+### Product Category Details
 
-* Data Modeling
-* DAX Measures
-* Customer Analytics
-* Cohort Analysis
-* Churn Analysis
-* KPI Development
-* Interactive Dashboard Design
-* Business Insight Generation
+![Product Category Details](./Product_category_details.png)
 
 ---
 
-## 📁 Repository Structure
+## 🚀 Skills Demonstrated
 
-```text
-📁 Repository Structure
-Customer-Analytics-Segmentation--Power-BI/
-│
-├── README.md
-│
-└── /
-    ├── Customer overview.png
-    ├── Customer_performance&segmentation.png
-    └── Customer_table_Cohort.png
-```
+**Power BI · Power Query · DAX · Star Schema · Data Modeling · Customer Analytics · Revenue Analysis · Churn Analysis · LTV Segmentation · Cohort Analysis · Category Analysis · KPI Development · Data Visualization · Business Insights**
 
 ---
 
 ## 💡 Conclusion
 
-This project provides a comprehensive view of customer behavior and value by combining revenue analysis, retention, segmentation, lifetime value, and cohort analysis into one interactive Power BI solution.
+This project goes beyond simply reporting sales. It connects **customer acquisition, purchasing behavior, retention, customer value, cohort performance, and product categories** to provide a complete view of business performance.
 
-The goal is not only to visualize customer data, but to turn it into **actionable business insights that can support customer-focused decision making**.
+The key takeaway is that **customer quantity alone does not tell the full story** — understanding customer value, retention, purchasing behavior, and sales distribution provides deeper and more actionable insights.

@@ -99,7 +99,7 @@ The analysis highlights that:
 
 ### Customer Performance & Segmentation
 
-![Customer Performance & Segmentation](./Customer_performance\&segmentation.png)
+![Customer_segmentation](./Customer_segmentation.png)
 
 ### Customer Details & Cohort Analysis
 

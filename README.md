@@ -109,6 +109,8 @@ The analysis highlights that:
 ### Product Category Details
 
 ![Product Category Details](./Product_category_details.png)
+### Customer Retention by Cohort 
+![Customer Retention by Cohort Year](./Customer Retention by Cohort Year.png)
 
 ---
 

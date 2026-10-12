@@ -52,44 +52,45 @@ Classifies customers as **Active or Churned** based on their latest purchasing a
 Segments customers into **Low, Medium, and High LTV** groups to understand customer value and revenue contribution.
 
 ### Cohort Analysis
-
 Groups customers by their **first purchase year** to compare customer and revenue performance across cohorts.
 
-### Product Category Analysis
+### Cohort Year Retention Analysis
+Groups customers by their **first purchase year** to analyze customer retention, purchasing behavior, and revenue performance across cohorts over time.
 
+### Product Category Analysis
 Compares product categories using **Average Sales and Median Sales**, providing a clearer view of typical performance and the effect of high-value transactions.
 
 ---
 
 ## 📊 Key Metrics
 
-* Total Customers
-* Total Revenue
-* Total Orders
-* Average Order Value
-* Revenue per Customer
-* Customer Growth
-* Revenue Growth
-* Active Customers
-* Churned Customers
-* Customer Lifetime Value
-* Average Sales
-* Median Sales
-
+- Total Customers
+- Total Revenue
+- Total Orders
+- Average Order Value
+- Revenue per Customer
+- Customer Growth
+- Revenue Growth
+- Active Customers
+- Churned Customer
+- Customer Purchase Rate  
+- Customer Retention Rate
+- Customer Lifetime Value
+- Average Sales
+- Median Sales
 ---
 
 ## 🔍 Key Insights
 
 The analysis highlights that:
 
-* **2020 experienced a significant decline in customer and revenue performance, coinciding with the COVID-19 pandemic and its broader economic impact.**
-* **2022 was a strong year for sales performance**, showing a noticeable increase across key sales metrics.
-* **2023 saw a decline in Median Sales**, while overall sales performance also decreased across most key metrics.
-* Customer growth does not always translate into proportional revenue growth.
-* Customer value varies significantly across LTV segments.
-* Different acquisition cohorts show different levels of long-term performance.
-* **Average and Median Sales reveal different patterns across product categories.**
-
+- **2020 experienced a significant decline in customer and revenue performance**, coinciding with the COVID-19 pandemic period.
+- **2022 showed strong sales performance**, with a noticeable increase across key sales metrics.
+- **2023 saw a decline in Median Sales**, alongside weaker performance across several key metrics.
+- Customer growth does not always translate into proportional revenue growth.
+- Customer value varies significantly across LTV segments, highlighting differences in revenue contribution.
+- Customer retention patterns differ across acquisition cohorts, revealing variations in long-term purchasing behavior.
+- Average Sales and Median Sales reveal different patterns across product categories, helping distinguish typical performance from the influence of high-value transactions.
 
 ## 📸 Dashboard Preview
 
